@@ -73,7 +73,6 @@ public class Solution {
             do {
                 if (arr[last] >= arr[last - 1]) {
                     if (arr[last] == 0 & arr[0] == 0) break;
-                    //System.out.println(Arrays.toString(arr));
                     checkAddToArr(arr, N);
                 }
                 arr[last]--;
